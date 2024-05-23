@@ -13,12 +13,18 @@ Istomin Sergey group 6413
 
 2 выгружаем с сайта и разархивируем проект по нужной нам дериктории
 
-3 открываем проект в IDE и редактируем класс MyFirstDemoProjectApplication:
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+3 открываем проект в IDE и редактируем класс MyFirstDemoProjectApplication:  
+
+import org.springframework.boot.SpringApplication;  
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;  
+
+import org.springframework.web.bind.annotation.GetMapping;  
+
+import org.springframework.web.bind.annotation.RequestParam;  
+
+import org.springframework.web.bind.annotation.RestController;  
+
 
 @SpringBootApplication
 @RestController
